@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+<head>
+    <title>Operaciones</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = divice-width, initial-scale=1">
+    <link rel="stylesheet" href="C:\Users\algui\Desktop\Pagina Wed\css\styles.css">
+</head>
+<body>
+    <header class = "header">
+        <div class = "container logo-nav-container" >
+            <a href ="#" class="logo">Operaciones Aritmeticas</a>
+            <nav class = "navigation">
+                <ul>
+                    <li><a href ="#">Inicio</a></li>
+                    <li><a href ="#">Contacto</a></li>
+                    <li><a href ="#">¿Quienes somos?</a></li>
+                    <li><a href ="#">Dirrecion</a></li>
+                
+                </ul>               
+            </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class= "container">
+
+        <h1>Aprende a:</h1>
+        
+                <h2 class="Titulos">Sumar</h2>
+                <p> Operación aritmética que consiste en reunir varias cantidades en una sola; se representa con el signo + </p>
+                <p> Ejemplo:</p>
+                <p> 2 + 2 = 4 </p>
+                <p> 4 + 2 = 6 </p>
+                <p> 6 + 2 = 8 </p>
+                <p> 8 + 8 = 16 </p>
+                <form action="">
+                    <input type="text" id="Numero1">
+                    <input type="text" id="Numero2">
+                    <input type="button" value="Sumar" onclick="alert (suma(1,1));">
+                    <script>
+                        var suma = function(Numero1, Numero2) {
+                            var Numero1 = parseFloat(document.getElementById("Numero1").value);
+                            var Numero2 = parseFloat(document.getElementById("Numero2").value);
+                            var resultado = Numero1 + Numero2;
+
+                            return resultado;
+                        }
+                    </script>
+                </form>
+                <h3 class="Titulos">Resta</h3>
+                <p>Operación aritmética que consiste en quitar una cantidad (el sustraendo) de otra (el minuendo) para averiguar la diferencia entre las dos; se representa con el signo -</p>
+                <p> Ejemplo: </p>
+                <p> 2 - 1 = 1 </p>
+                <p> 8 - 5 = 3 </p>
+                <p> 9 - 1 = 8 </p>
+                <p> 5 - 3 = 2 </p>
+                <form action="">
+                    <input type="text" id="Numero3">
+                    <input type="text" id="Numero4">
+                    <input type="button" value="Restar" onclick="alert (resta(1,1));">
+                    <script>
+                        var resta = function(Numero1, Numero2) {
+                            var Numero3 = parseFloat(document.getElementById("Numero3").value);
+                            var Numero4 = parseFloat(document.getElementById("Numero4").value);
+                            var resultado = Numero3 - Numero4;
+
+                            return resultado;
+                        }
+                    </script>
+                </form>
+                <h4 class="Titulos">Multiplicacion </h4>
+                <p>Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos · o ×</p>
+                <p> Ejemplo: </p>
+                <p> 2 x 1 = 2 </p>
+                <p> 8 x 5 = 40 </p>
+                <p> 9 x 1 = 9 </p>
+                <p> 5 x 3 = 15 </p>
+                <form action="">
+                    <input type="text" id="Numero5">
+                    <input type="text" id="Numero6">
+                    <input type="button" value="Multiplicar" onclick="alert (multiplicar(1,1));">
+                    <script>
+                        var multiplicar = function(Numero1, Numero2) {
+                            var Numero5 = parseFloat(document.getElementById("Numero5").value);
+                            var Numero6 = parseFloat(document.getElementById("Numero6").value);
+                            var resultado = Numero5 * Numero6;
+
+                            return resultado;
+                        }
+                    </script>
+                </form>
+                <h4 class="Titulos">División </h4>
+                <p>La división es una operación matemática o aritmética que consiste en averiguar cuántas veces un número (el divisor) está contenido en otro número (el dividendo). El resultado de una división recibe el nombre de cociente. De manera general
+                    puede decirse que la división es la operación inversa de la multiplicación.</p>
+                <p> Ejemplo: </p>
+                <p> 4 / 2 = 2 </p>
+                <p> 10 / 2 = 5 </p>
+                <p> 12 / 3 = 3 </p>
+                <p> 20 / 10 = 2</p>
+
+                <form action="">
+                    <input type="text" id="Numero7">
+                    <input type="text" id="Numero8">
+                    <input type="button" value="Dividir" onclick="alert (divicion(1,1));">
+                    <script>
+                        var divicion = function(Numero1, Numero2) {
+                            var Numero7 = parseFloat(document.getElementById("Numero7").value);
+                            var Numero8 = parseFloat(document.getElementById("Numero8").value);
+                            var resultado = Numero7 / Numero8;
+
+                            return resultado;
+                        }
+                    </script>
+                </form>  
+        </div>   
+    </main>
+<footer class = "footer">
+    <div class = "container">
+        <p>
+        Creado por Miguel Hernandez Y Sebastian villa
+        </p>
+    </dic>
+</footer>
+
+</body>
+
+
+</html>
